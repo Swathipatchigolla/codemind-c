@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int i;
-    char n[1000];
+    char n[10];
     scanf("%s",&n);
     for(i=0;n[i]!=NULL;i++){
         if(n[i]=='6'){
