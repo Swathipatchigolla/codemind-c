@@ -4,7 +4,10 @@ int main(){
     scanf("%d",&n);
     for(i=n;i>0;i--){
         for(j=n;j>0;j--){
-            printf("%d ",j);
+            if(i==j){
+            printf("0");
+            }
+            else printf("x");
         }
         printf("
 ");
